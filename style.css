@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #33d9b2;
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: #218c74;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin: 1.5rem;
+}
+
+.note-container {
+  border: 1px solid black;
+  padding: 0 1rem;
+  color: crimson;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+.btn {
+  border: none;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: coral;
+}
+
+.btn:hover {
+  background-color: chocolate;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 0;
+}
+
+.social {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  margin: 0 0.5rem;
+  padding: 0 0.5rem;
+  font-weight: bold;
+  background-color: paleturquoise;
+}
