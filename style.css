@@ -61,8 +61,7 @@ footer {
   text-decoration: none;
   cursor: pointer;
   color: inherit;
+  font-size: 2rem;
   margin: 0 0.5rem;
-  padding: 0 0.5rem;
   font-weight: bold;
-  background-color: paleturquoise;
 }
