@@ -4,9 +4,7 @@ const birthdayResult = document.getElementById("output-container");
 const checkBtn = document.getElementById("check-btn");
 
 checkBtn.addEventListener("click", () => {
-  //
   let birthDate = birthDateInput.value.replaceAll("-", "");
-  console.log(birthDate);
   let luckyNumber = luckyNumberInput.value;
   if (!birthDate) {
     showMessage("Please select your birthdate", "gray");
@@ -31,7 +29,6 @@ const getSum = (numberArr) => {
 
 const isLucky = (birthDate, luckyNumber) => {
   let sum = getSum(birthDate.split(""));
-  console.log(sum);
   if (sum % luckyNumber == 0 || luckyNumber % sum == 0) {
     return true;
   } else {
